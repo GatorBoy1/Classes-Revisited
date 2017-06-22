@@ -18,29 +18,62 @@
 #gucci.purr
 #gucci.meow
 
-class BarnSounds
-    def chicken
-        puts "cluck cluck cluck"
+#class BarnSounds
+#    def chicken
+#        puts "cluck cluck cluck"
+#    end
+#    
+#    def cow
+#        puts "moo moo moo"
+#    end
+#        
+#    def cat 
+#        puts "meow meow"
+#    end
+#    
+#    def duck
+#        puts "quack quack quack"
+#    end
+#end
+#
+#GreenFarm =  BarnSounds.new
+#GreenFarm.chicken
+#GreenFarm.duck
+#GreenFarm.cow
+#GreenFarm.cat
+
+class FavPerson
+    def leader
+        puts "Winston Churchill"
     end
     
-    def cow
-        puts "moo moo moo"
-    end
-        
-    def cat 
-        puts "meow meow"
+    def actor
+        puts "Lawrence Olivier"
     end
     
-    def duck
-        puts "quack quack quack"
+    def comedian
+        puts "Don Rickles"
+    end
+    
+    def martial_artist
+        puts "Bruce Lee"
+    end
+    
+    def constitution
+        puts "Thomas Jefferson"
     end
 end
 
-GreenFarm =  BarnSounds.new
-GreenFarm.chicken
-GreenFarm.duck
-GreenFarm.cow
-GreenFarm.cat
+DonFav = FavPerson.new
+DonFav.constitution
+DonFav.martial_artist
+DonFav.comedian
+DonFav.actor
+DonFav.actor
+
+        
+        
+        
 
     
     
